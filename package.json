@@ -1,5 +1,27 @@
 {
   "dependencies": {
-    "express": "^4.17.2"
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "firebase": "^8.10.0"
+  },
+  "name": "profiles-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khizarIqbal93/profiles-api.git"
+  },
+  "author": "Khizar Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khizarIqbal93/profiles-api/issues"
+  },
+  "homepage": "https://github.com/khizarIqbal93/profiles-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
